@@ -26,6 +26,25 @@ body {
   border-radius: 20%;
 }
 
+.botOne {
+  margin: auto;
+  display: inline-block;
+  height: 50px;
+  width:20%;
+  border: 10px solid black;
+  border-radius: 100%;
+  margin-bottom: 5%;
+  background-color:#FEF2BF ;
+  color: #011F3F;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  font-size: large;
+}
+.botOne:hover {
+  box-shadow: 0 0 20px;
+  background-color: grey;
+}
+
 .game-over  {
   background-color: red !important;
   opacity: 0.8;

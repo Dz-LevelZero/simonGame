@@ -33,7 +33,7 @@ $(document).keydown(function () {
     }
 });
 
-$(".startKey").click(function () { 
+$(".botOne").click(function () { 
     if (!started){
         $("#level-title").text("Level "+ level);
         nextSequence();
