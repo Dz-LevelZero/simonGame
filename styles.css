@@ -26,8 +26,8 @@ body {
   border-radius: 20%;
 }
 
-.game-over {
-  background-color: red;
+.game-over  {
+  background-color: red !important;
   opacity: 0.8;
 }
 
