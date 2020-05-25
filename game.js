@@ -33,6 +33,14 @@ $(document).keydown(function () {
     }
 });
 
+$(".startKey").click(function () { 
+    if (!started){
+        $("#level-title").text("Level "+ level);
+        nextSequence();
+        started =true;
+    }
+});
+
 $(".bot").click(function(){
     let userChosenColour= $(this).attr("id");
     userClickedPattern.push(userChosenColour);

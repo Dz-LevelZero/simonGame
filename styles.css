@@ -18,10 +18,10 @@ body {
 }
 
 .bot {
-  margin: 25px;
+  margin: auto;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -50,4 +50,10 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.startKey {
+  color:#011F3F ;
+  background-color:#FEF2BF ;
+  padding:5px 2px 2px 5px;
 }
